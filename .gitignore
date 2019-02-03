@@ -1,0 +1,25 @@
+# System and IDE files
+Thumbs.db
+.DS_Store
+.idea
+*.suo
+*.sublime-project
+*.sublime-workspace
+.vscode/
+*.log
+.directory
+
+# Vendors
+node_modules/
+
+# Build
+build/
+/npm-debug.log
+/www/game
+/www/assets
+/plugins/
+/platforms/
+/src/phaser
+/src/assets.ts
+
+

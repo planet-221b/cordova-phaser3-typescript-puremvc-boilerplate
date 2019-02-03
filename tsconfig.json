@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es5",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "declaration": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitAny": true,
+    "isolatedModules": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": ["dom", "es2015.promise", "es6"]
+  },
+  "include": ["./src/**/*", "./types/**/*", "./plugins/**/*"],
+  "files": [
+    // "./node_modules/@planet221b/pure-mvc/index.d.ts",
+    "./node_modules/cordova-plugin-dialogs/types/index.d.ts",
+    "./node_modules/cordova-plugin-statusbar/types/index.d.ts"
+  ]
+}
